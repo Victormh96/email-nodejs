@@ -3,7 +3,7 @@ var express = require("express");
 var app = express();
 
 app.post("/send-email", (req, res) => {
-
+    //NUEVA RAMA
     //Servidor SMTP
     var transporter = nodemailer.createTransport({
         host: "smtp.ethereal.email",
